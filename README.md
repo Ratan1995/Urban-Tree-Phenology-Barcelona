@@ -180,7 +180,31 @@ Double logistic models were fitted to the EVI time series to describe seasonal v
 Phenological metrics (SOS, POS, EOS, and GSL) were extracted using the 20% dynamic threshold method, allowing comparison between cooler and warmer urban environments.
 
 ![Phenology Metrics](figures/phenology_metrics.png)
+### Land Surface Phenology Metrics
 
+Land Surface Phenology (LSP) metrics were extracted from the fitted EVI curves using the **20% dynamic threshold method**. The table below summarizes the seasonal transitions for the three dominant urban tree species in Barcelona.
+
+| Species | Thermal Zone | SOS (DOY) | POS (DOY) | EOS (DOY) | GSL (days) |
+|:---------|:------------:|----------:|----------:|----------:|-----------:|
+| *Platanus × hispanica* | Zone 1 | 87 | 135 | 335 | 248.4 |
+| | Zone 4 | 87 | 130 | 351 | 264.2 |
+| *Celtis australis* | Zone 1 | 93 | 146 | 342 | 248.7 |
+| | Zone 4 | 89 | 133 | 11* | 288.0 |
+| *Styphnolobium japonicum* | Zone 1 | 98 | 178 | 356 | 257.8 |
+| | Zone 4 | 98 | 167 | 13* | 281.0 |
+
+*DOY values of 11 and 13 correspond to January 2025, reflecting species whose growing season extends into the following calendar year.
+## 🔑 Key Findings
+
+- Annual mean Land Surface Temperature (LST) classified Barcelona into four distinct urban thermal zones, providing a framework for evaluating intra-urban phenological variation.
+
+- Trees growing in the warmest thermal environment (Zone 4) generally exhibited an extended growing season compared with those in the coolest environment (Zone 1), although the magnitude of the response varied among species.
+
+- *Platanus × hispanica* showed an earlier Peak of Season (POS) and a longer Growing Season Length (GSL) in the warmest thermal zone, indicating a clear response to elevated urban temperatures.
+
+- *Celtis australis* and *Styphnolobium japonicum* exhibited growing seasons that extended into January of the following year in the warmest thermal zone, highlighting species-specific phenological responses to the Urban Heat Island effect.
+
+- The combination of PlanetScope SuperDove imagery, EVI time series, double logistic curve fitting, and the 20% dynamic threshold method provides a reproducible workflow for monitoring urban tree phenology at high spatial resolution.
 ## 🙏 Acknowledgements
 
 This repository was developed as part of a Master's thesis at the Department of Geography, Vrije Universiteit Brussel (VUB), KU Leuven, Belgium.The author gratefully acknowledges the guidance and supervision of Robbe Neyns and Prof. Frank Canters throughout this research.
