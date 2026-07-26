@@ -84,8 +84,8 @@ The overall workflow adopted in this study is illustrated below.
 Clone the repository:
 
 ```bash
-git clone https://github.com/Ratan1995/Urban-Tree-Phenology-PlanetScope-.git
-cd Urban-Tree-Phenology-PlanetScope-
+git clone https://github.com/Ratan1995/Urban-Tree-Phenology-Barcelona.git
+cd Urban-Tree-Phenology-Barcelona
 ```
 
 Install the required Python packages:
@@ -93,3 +93,14 @@ Install the required Python packages:
 ```bash
 pip install -r requirements.txt
 ```
+## 📦 Data
+
+The analysis requires the following datasets:
+
+| Dataset | Description |
+|---------|-------------|
+| PlanetScope SuperDove | High-resolution multispectral imagery (3 m) |
+| Barcelona Tree Inventory | Urban tree inventory containing tree locations and species information |
+| Landsat 8 Collection 2 Level-2 | Land Surface Temperature (LST) used for thermal zonation |
+
+> **Note:** The original PlanetScope imagery is proprietary and therefore cannot be redistributed through this repository. Users should obtain PlanetScope imagery through an appropriate license before running the workflow.
