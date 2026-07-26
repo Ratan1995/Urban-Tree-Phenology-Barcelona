@@ -11,7 +11,7 @@
 
 
 **Author:** Ratan Chandra Bhowmick  
-**Supervisors:** Robbe Neyns & Prof. Frank Canters  
+**Supervisors:** Robbe Neyns & Prof. Dr. Frank Canters  
 **Affiliation:** Department of Geography, Vrije Universiteit Brussel (VUB), KU Leuven, Belgium
 
 ---
