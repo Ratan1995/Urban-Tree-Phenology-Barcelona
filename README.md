@@ -2,13 +2,13 @@
 
 *A reproducible Python workflow for investigating the influence of the Urban Heat Island (UHI) on urban tree phenology using high-resolution PlanetScope SuperDove imagery.*
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Platform](https://img.shields.io/badge/Platform-Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
-[![Data](https://img.shields.io/badge/Data-Satellite_Imagery-2E8B57)](https://en.wikipedia.org/wiki/Satellite_imagery)
-[![Application](https://img.shields.io/badge/Application-Tree_Phenology-4CAF50)](https://en.wikipedia.org/wiki/Phenology)
-[![Study](https://img.shields.io/badge/Study-Urban_Heat_Island-E53935)](https://en.wikipedia.org/wiki/Urban_heat_island)
-[![Study Area](https://img.shields.io/badge/Study_Area-Barcelona-FF9800)](https://www.barcelona.cat/en/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
+[![Satellite Imagery](https://img.shields.io/badge/Data-Satellite_Imagery-2E8B57)](https://en.wikipedia.org/wiki/Satellite_imagery)
+[![Tree Phenology](https://img.shields.io/badge/Application-Tree_Phenology-4CAF50)](https://en.wikipedia.org/wiki/Phenology)
+[![Urban Heat Island](https://img.shields.io/badge/Study-Urban_Heat_Island-E53935)](https://en.wikipedia.org/wiki/Urban_heat_island)
+[![Barcelona](https://img.shields.io/badge/Study_Area-Barcelona-FF9800)](https://www.barcelona.cat/en/)
+[![License](https://img.shields.io/badge/License-MIT-4CAF50)](LICENSE)
 
 **Author:** Ratan Chandra Bhowmick  
 **Supervisors:** Robbe Neyns & Prof. Frank Canters  
