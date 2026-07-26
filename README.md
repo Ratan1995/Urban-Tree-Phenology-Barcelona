@@ -2,14 +2,14 @@
 
 *A reproducible Python workflow for investigating the influence of the Urban Heat Island (UHI) on urban tree phenology using high-resolution PlanetScope SuperDove imagery.*
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=white)
-![PlanetScope](https://img.shields.io/badge/Data-PlanetScope-2E8B57)
-![EVI](https://img.shields.io/badge/Vegetation%20Index-EVI-228B22)
-![Barcelona](https://img.shields.io/badge/Study%20Area-Barcelona-E67E22)
-![Urban Heat Island](https://img.shields.io/badge/Theme-Urban%20Heat%20Island-D35454)
-![Remote Sensing](https://img.shields.io/badge/Field-Remote%20Sensing-6C5CE7)
-![License](https://img.shields.io/badge/License-MIT-F1C40F)
+[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/)
+[![PlanetScope](https://img.shields.io/badge/PlanetScope-SuperDove-2E8B57)](https://www.planet.com/products/planet-imagery/)
+[![EVI](https://img.shields.io/badge/Vegetation_Index-EVI-228B22)](https://en.wikipedia.org/wiki/Enhanced_vegetation_index)
+[![Urban Heat Island](https://img.shields.io/badge/Urban_Heat_Island-UHI-red)](https://en.wikipedia.org/wiki/Urban_heat_island)
+[![Barcelona](https://img.shields.io/badge/Study_Area-Barcelona-orange)](https://www.barcelona.cat/en/)
+[![Remote Sensing](https://img.shields.io/badge/Remote_Sensing-Earth_Observation-blueviolet)](https://en.wikipedia.org/wiki/Remote_sensing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **Author:** Ratan Chandra Bhowmick  
 **Supervisors:** Robbe Neyns & Prof. Frank Canters  
