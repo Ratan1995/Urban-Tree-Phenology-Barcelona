@@ -13,7 +13,7 @@
 
 **Author:** Ratan Chandra Bhowmick  
 **Supervisors:** Robbe Neyns & Prof. Frank Canters  
-**Affiliation:** Department of Geography, Vrije Universiteit Brussel (VUB)
+**Affiliation:** Department of Geography, Vrije Universiteit Brussel (VUB), KU Leuven, Belgium
 
 ---
 
@@ -156,3 +156,41 @@ After downloading the datasets, organize them as follows:
 | `data/planetscope/` | PlanetScope SuperDove imagery (not included) |
 | `data/tree_inventory/` | Barcelona urban tree inventory |
 | `data/landsat_lst/` | Landsat 8 Land Surface Temperature (LST) data |
+## 📊 Results
+
+The workflow generates several outputs that characterize the impact of the Urban Heat Island (UHI) on tree phenology in Barcelona. Key outputs include thermal zonation maps, EVI time-series analysis, phenological metrics, and statistical comparisons.
+
+### Thermal Zonation
+
+The annual mean Land Surface Temperature (LST) was classified into four thermal zones using k-means clustering.
+
+![Thermal Zonation](figures/thermal_zonation.png)
+
+---
+
+### Seasonal EVI Dynamics
+
+Double logistic models were fitted to the EVI time series to describe seasonal vegetation dynamics across different thermal zones. The fitted curve constructed based on the EVI mean observations of each trees from 2024 to 2025
+
+![EVI Time Series](figures/evi_dynamics.png)
+
+---
+### Land Surface Phenology Metrics
+
+Phenological metrics (SOS, POS, EOS, and GSL) were extracted using the 20% dynamic threshold method, allowing comparison between cooler and warmer urban environments.
+
+![Phenology Metrics](figures/phenology_metrics.png)
+
+## 🙏 Acknowledgements
+
+This repository was developed as part of a Master's thesis at the Department of Geography, Vrije Universiteit Brussel (VUB), KU Leuven, Belgium.The author gratefully acknowledges the guidance and supervision of Robbe Neyns and Prof. Frank Canters throughout this research.
+
+## 📄 License
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+## 📖 Citation
+
+If you use this repository in your research, please cite it as:
+
+> Bhowmick, R. C. (2026). *Assessing the Urban Heat Island Effect on Tree Phenology Using High-Resolution Satellite Imagery* (Version 1.0.0) [Computer software]. GitHub. https://github.com/Ratan1995/Urban-Tree-Phenology-PlanetScope
+
+GitHub's **"Cite this repository"** feature is also available through the included `CITATION.cff` file.
