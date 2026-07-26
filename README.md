@@ -21,17 +21,6 @@
 
 Urban Heat Islands (UHIs) alter the seasonal growth and development of urban vegetation by modifying local microclimatic conditions. This repository provides a complete and reproducible workflow for extracting Enhanced Vegetation Index (EVI) time series from PlanetScope SuperDove imagery and analysing the land surface phenology of urban tree species across contrasting urban thermal environments in Barcelona, Spain.
 
-The workflow includes:
-
-- Generation of EVI images from PlanetScope SuperDove imagery
-- Extraction of tree-level EVI time series
-- Preparation and quality control of time-series data
-- Double logistic curve fitting
-- Extraction of land surface phenology (LSP) metrics (SOS, POS, EOS and GSL)
-- Statistical comparison between urban thermal zones
-- Sensitivity analysis using multiple dynamic thresholds
-- Generation of publication-quality figures and tables
-
 ---
 
 ## 🌍 Study Area
@@ -60,4 +49,47 @@ The workflow includes:
 
 - Google Colab
 
-## 🔄 Workflow
+## 🔄 Methodology Workflow
+
+The overall workflow adopted in this study is illustrated below.
+
+<p align="center">
+  <img src="figures/methodology_workflow.png" alt="Methodology Workflow" width="1000">
+</p>
+## 📂 Repository Structure
+
+```text
+.
+├── data/
+├── docs/
+├── figures/
+├── notebooks/
+├── output/
+├── scripts/
+│   ├── 01_create_evi_images.py
+│   ├── 02_extract_evi_timeseries.py
+│   ├── 03_prepare_timeseries.py
+│   ├── 04_fit_double_logistic.py
+│   ├── 05_extract_lsp_metrics.py
+│   ├── 06_statistics.py
+│   ├── 07_sensitivity_analysis.py
+│   └── 08_make_figures.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ratan1995/Urban-Tree-Phenology-PlanetScope-.git
+cd Urban-Tree-Phenology-PlanetScope-
+```
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
