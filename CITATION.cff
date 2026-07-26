@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Assessing the Urban Heat Island Effect on Tree Phenology Using High-Resolution Satellite Imagery"
+message: "If you use this repository in your research, please cite it as follows."
+type: software
+
+authors:
+  - family-names: "Bhowmick"
+    given-names: "Ratan Chandra"
+    affiliation: "Vrije Universiteit Brussel"
+
+repository-code: "https://github.com/Ratan1995/Urban-Tree-Phenology-PlanetScope"
+
+license: MIT
+
+keywords:
+  - Urban Heat Island
+  - Tree Phenology
+  - PlanetScope
+  - Enhanced Vegetation Index
+  - Remote Sensing
+  - Barcelona
+  - Python
+
+abstract: >
+  A reproducible Python workflow for investigating the influence of
+  the Urban Heat Island on urban tree phenology using PlanetScope
+  SuperDove imagery and Enhanced Vegetation Index (EVI) time series.
