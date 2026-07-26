@@ -206,7 +206,7 @@ Land Surface Phenology (LSP) metrics were extracted from the fitted EVI curves u
 - The combination of PlanetScope SuperDove imagery, EVI time series, double logistic curve fitting, and the 20% dynamic threshold method provides a reproducible workflow for monitoring urban tree phenology at high spatial resolution.
 ## 🙏 Acknowledgements
 
-This repository was developed as part of a Master's thesis at the Department of Geography, Vrije Universiteit Brussel (VUB), KU Leuven, Belgium.The author gratefully acknowledges the guidance and supervision of Robbe Neyns and Prof. Frank Canters throughout this research.
+This repository was developed as part of a Master's thesis at the Department of Geography, Vrije Universiteit Brussel (VUB), KU Leuven.The author gratefully acknowledges the guidance and supervision of Robbe Neyns and Prof. Frank Canters throughout this research.
 
 ## 📄 License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
