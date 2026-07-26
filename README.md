@@ -104,3 +104,55 @@ The analysis requires the following datasets:
 | Landsat 8 Collection 2 Level-2 | Land Surface Temperature (LST) used for thermal zonation |
 
 > **Note:** The original PlanetScope imagery is proprietary and therefore cannot be redistributed through this repository. Users should obtain PlanetScope imagery through an appropriate license before running the workflow.
+
+## 🚀 Usage
+
+The analysis should be executed sequentially by running the following scripts.
+
+| Step | Script | Description |
+|------|--------|-------------|
+| 1 | `01_create_evi_images.py` | Generates Enhanced Vegetation Index (EVI) images from PlanetScope SuperDove imagery. |
+| 2 | `02_extract_evi_timeseries.py` | Extracts tree-level EVI values for each acquisition date and builds time-series datasets. |
+| 3 | `03_prepare_timeseries.py` | Cleans, organizes, and prepares the EVI time series for phenological analysis. |
+| 4 | `04_fit_double_logistic.py` | Fits a double logistic model to the EVI time series for each tree species and thermal zone. |
+| 5 | `05_extract_lsp_metrics.py` | Extracts land surface phenology (LSP) metrics, including Start of Season (SOS), Peak of Season (POS), End of Season (EOS), and Growing Season Length (GSL). |
+| 6 | `06_statistics.py` | Performs statistical analyses, including normality tests, ANOVA, Factorial Linear Model, and Validation. |
+| 7 | `07_sensitivity_analysis.py` | Evaluates the influence of different dynamic threshold values on the extracted phenological metrics. |
+| 8 | `08_make_figures.py` | Produces publication-quality figures and summary tables used in the manuscript. |
+
+The complete workflow is also available as a Google Colab notebook in the `notebooks/` directory.
+## 📥 Input and Output
+### Input Data
+
+- PlanetScope SuperDove multispectral imagery
+- Barcelona urban tree inventory
+- Landsat 8 Collection 2 Level-2 Land Surface Temperature (LST)
+
+### Output Products
+
+- EVI raster images
+- Tree-level EVI time series
+- Double logistic fitted curves
+- Land surface phenology (LSP) metrics
+- Statistical summaries
+- Publication-quality figures and tables
+## 📂 Data
+
+This repository does not include the original satellite imagery due to licensing restrictions.
+
+### Required datasets
+
+| Dataset | Source | Availability |
+|---------|--------|--------------|
+| PlanetScope SuperDove imagery | Planet Labs | Not included (proprietary) |
+| Barcelona Tree Inventory | Barcelona Open Data | Publicly available |
+| Landsat 8 Collection 2 Level-2 LST | Google Earth Engine | Publicly available |
+
+After downloading the datasets, organize them as follows:
+
+### Directory Structure
+| Folder | Contents |
+|--------|----------|
+| `data/planetscope/` | PlanetScope SuperDove imagery (not included) |
+| `data/tree_inventory/` | Barcelona urban tree inventory |
+| `data/landsat_lst/` | Landsat 8 Land Surface Temperature (LST) data |
