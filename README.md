@@ -8,7 +8,7 @@
 [![Tree Phenology](https://img.shields.io/badge/Application-Tree_Phenology-4CAF50)](https://en.wikipedia.org/wiki/Phenology)
 [![Urban Heat Island](https://img.shields.io/badge/Study-Urban_Heat_Island-E53935)](https://en.wikipedia.org/wiki/Urban_heat_island)
 [![Barcelona](https://img.shields.io/badge/Study_Area-Barcelona-FF9800)](https://www.barcelona.cat/en/)
-[![License](https://img.shields.io/badge/License-MIT-4CAF50)](LICENSE)
+
 
 **Author:** Ratan Chandra Bhowmick  
 **Supervisors:** Robbe Neyns & Prof. Frank Canters  
