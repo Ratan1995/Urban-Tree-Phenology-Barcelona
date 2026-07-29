@@ -1,0 +1,13 @@
+Species,Metric,W statistic,p-value,Normal
+(a) $\it{Platanus\ \times\ hispanica}$,SOS,0.7406,<0.001,No
+(a) $\it{Platanus\ \times\ hispanica}$,POS,0.5403,<0.001,No
+(a) $\it{Platanus\ \times\ hispanica}$,EOS,0.9503,<0.001,No
+(a) $\it{Platanus\ \times\ hispanica}$,GSL,0.9745,<0.001,No
+(b) $\it{Celtis\ australis}$,SOS,0.912,<0.001,No
+(b) $\it{Celtis\ australis}$,POS,0.7925,<0.001,No
+(b) $\it{Celtis\ australis}$,EOS,0.9506,<0.001,No
+(b) $\it{Celtis\ australis}$,GSL,0.9879,<0.001,No
+(c) $\it{Styphnolobium\ japonicum}$,SOS,0.9493,<0.001,No
+(c) $\it{Styphnolobium\ japonicum}$,POS,0.8632,<0.001,No
+(c) $\it{Styphnolobium\ japonicum}$,EOS,0.9587,<0.001,No
+(c) $\it{Styphnolobium\ japonicum}$,GSL,0.9949,<0.001,No
