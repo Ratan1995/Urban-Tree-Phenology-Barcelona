@@ -1,6 +1,6 @@
 # Notebook
 
-This directory contains the Jupyter notebook used to reproduce the complete workflow for analyzing the effects of the Urban Heat Island (UHI) on tree phenology in Barcelona.
+This directory contains the Google Colab notebook used to reproduce the complete workflow for analyzing the effects of the Urban Heat Island (UHI) on tree phenology in Barcelona.
 
 ## Notebook
 
